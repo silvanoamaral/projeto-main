@@ -49,7 +49,7 @@
 
 			// If the window that sent this message is not http://dev.iframe.com, then
 			// that message needs to be thrown out.
-			if (event.origin != "https://silvanoamaral.github.io/iframe-parent/") {
+			if (event.origin != "https://silvanoamaral.github.io") {
 				console.log("The message came from some site we don't know. We're not processing it.");
 				return;
 			}
