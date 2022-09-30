@@ -70,16 +70,17 @@
 			} else {
 				$(".user-data .user-age").html("The user is <strong>" + dataFromChildIframe.user_age + "</strong> years old.");
 			}
+			
 			$(".user-data .user-height").html("The user is <strong>" + dataFromChildIframe.user_height + "</strong> inches tall.");
 			
-			/*
+
 			$(".user-data").slideDown(200, function() {
 				setTimeout(function() {
-					$(".user-data").slideUp(200);
-					$(".status-message").html("Waiting for data from <code>dev.iframe.com</code>...");
+					//$(".user-data").slideUp(200);
+					//$(".status-message").html("Waiting for data from <code>dev.iframe.com</code>...");
 				}, 5000);
 			});
-			*/
+			
 		}
 	</script>
 </body>
